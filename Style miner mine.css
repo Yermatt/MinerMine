@@ -73,6 +73,20 @@ header{
     background-color: rgb(218, 218, 218);
 }
 
-.boutonMiner:hover{
-    opacity: 80%;
+button {
+    opacity: 0.5;
+    transition: 0.2s;
+    
+}
+
+button.achetable {
+    opacity: 1;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button.disable:hover{
+    opacity: 0.5;
 }
