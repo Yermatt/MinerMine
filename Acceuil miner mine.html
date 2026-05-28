@@ -14,10 +14,14 @@
 <body>
     <header>
         <section class="info">
+            
             <div>
                 <p class="Argent">Argent : <span id="valeurArgent"></span> €</p>
                 <p class="argSec" id="argSec"></p>
                 <p class="AutoMiner">Autominer : <span id="nbrAutoMiner"></span></p>
+                <p class="AutoMiner">1 AutoMiner &nbsp;=&nbsp; 1euro/s</p>
+
+                <button class="pauseBoucle" id="boutonPause">Pause boucle</button>
             </div>
         </section>
     </header>
@@ -25,12 +29,14 @@
     <main>
         <section class="action">
             <div class="bouton">
-                <button class="boutonMiner" id="boutonMiner">
-                    Miner pierre 
-                </button>
-                <button class="boutonMiner" id="boutonAutoMiner">
-                    AutoMiner - 10 €
-                </button>
+                <button class="boutonMiner" id="boutonMiner" value="0"> Creuser </button>
+                <button class="boutonMiner" id="boutonAutoMiner" value="50"> AutoMiner - 50 € </button>
+                <button class="boutonMiner" id="boutonPierre" value="300"> A.M PIERRE - 300 € / +3 AM </button>
+            </div>
+        </section>
+        <section class="inventaire">
+            <div>
+                
             </div>
         </section>
     </main>
